@@ -1,6 +1,6 @@
 allow_k8s_contexts('eduk8s')
 
-SOURCE_IMAGE = 'http://192.168.49.2:30002/spring-sensors'
+SOURCE_IMAGE = '192.168.49.2:30002/spring-sensors'
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
 
